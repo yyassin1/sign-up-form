@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/norse" rel="stylesheet">
+</head>
+<body>
+    <div class="body">
+        <div class="block-1">
+            <div class="shadow"> 
+            <img class="logo" src="images/logo.png" alt="logo"> 
+            <h2 class="yahuya">Yahuya</h2>
+        </div>
+            <img class="background-image"src="https://media0.giphy.com/media/c1hvB6z9iXmrB5GQJY/giphy.gif?cid=ecf05e47421d1oy6d7oq40b93n65056x74ufi47zsikybg0t&rid=giphy.gif&ct=g" alt="I donated!">
+        </div>
+        <div class="block-2">
+            <div class="head">
+                <p class="header">By supporting this organization, you have the opportunity to play a role in creating a better world for those in need. If you would like to make a difference, consider visiting Yahuya's donation page to find out how you can support their efforts.</p>
+                <h3 class="header">let's do this!</h3><hr>
+            </div>
+            <form action="#" method="post">
+            <div class="first-form">
+                <div class="fName">
+                    <label for="first-name">*First Name</label><br>
+                    <input type="text" id="first-name" required>
+                </div>
+                <div class="lName">
+                    <label for="last-name">*Last Name</label><br>
+                    <input type="text" id="last-name" required>
+                </div>
+            </div>
+            <div class="second-form"> 
+                <div class="email">
+                    <label for="email">*Email</label><br>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="phone">
+                    <label for="phone">*Phone</label><br>
+                    <input type="text" id="phone" minlength="10" maxlength="11" required>
+                </div>
+            </div>
+            <div class="third-form">
+                <div class="password">
+                    <label for="password">*Password</label><br>
+                    <input type="password" id="password" minLength='8'required>
+                </div>
+                <div class="confirm-password">
+                    <label for="confirm-password">*Confirm Password</label><br>
+                    <input type="password" id="confirm-password" minLength='8'required>
+                </div>
+            </div>
+            <h5 id="error"></h5>
+            <div class="create">
+                <button type="submit" class="btn">Create Account</button>
+            </div>
+        </form>
+        <div class="login">
+            Already have an Account? <strong><a href="index.html">Log in</a></strong>
+        </div><hr>
+        </div>
+    </div>
+    <div class="footer">
+        Designed by Yassin Yassin for the Odin Project
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
